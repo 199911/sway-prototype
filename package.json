@@ -1,0 +1,11 @@
+{
+  "name": "sway-prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/199911/sway-prototype.git",
+  "author": "Ku Lok Sun <sundaykuloksun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sway": "^2.0.5"
+  }
+}
