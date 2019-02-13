@@ -7,6 +7,8 @@ const main = async () => {
   const apiDefinition = await sway.create({
     definition: path
   });
+  const operation = apiDefinition.getOperation('/pets', 'GET');
+  console.log(operation)
 }
 
 main();
